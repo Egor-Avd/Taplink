@@ -8,7 +8,7 @@ body {
 }
 .page-wrapper {
   overflow: hidden;
-  width: 375px;
+  max-width: 375px;
   margin: auto;
   background: #f7f7f7;
   box-shadow: 0px 0px 30px rgba(128, 127, 127, 0.25);
@@ -19,7 +19,7 @@ body {
   margin: auto;
 }
 .header {
-  color: white;
+  color: #fff;
   padding: 40px 42px 145px;
   background: linear-gradient(
       0deg,
@@ -45,7 +45,7 @@ body {
   background: #ffffff;
   box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.05);
   border-radius: 10px;
-  margin-bottom: 20px;
+  padding-bottom: 20px;
 }
 .user-avatar {
   margin-top: -43px;
